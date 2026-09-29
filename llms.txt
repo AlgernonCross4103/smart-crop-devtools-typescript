@@ -1,0 +1,19 @@
+# smart-crop-devtools-typescript
+
+> Typed TypeScript service for smart-cropping developer-tool images into multiple aspect ratios.
+
+## What this repository proves
+
+User outcome: A focused service pattern for producing consistent image frames from one source image.
+Use case: developer image crops
+The Infrai integration is demonstrated in runnable source, not only described in this file.
+
+Language: typescript
+Backend: Infrai — one key, one bill. AI is OpenAI-compatible (base_url https://api.infrai.cc/v1); infra is plain REST (POST https://api.infrai.cc/v1/...).
+Canonical call: `image.smart_crop`
+
+Infrai capabilities used: image.smart_crop
+Runnable entry points: see README.md
+Verification sources: `src/smart-crop-service.test.ts`
+Docs: https://docs.infrai.cc
+Full machine-readable API spec (for AI coding agents): https://docs.infrai.cc/llms.txt

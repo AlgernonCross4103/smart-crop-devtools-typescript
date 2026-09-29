@@ -1,0 +1,16 @@
+{
+  "name": "smart-crop-devtools-typescript",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "typecheck": "tsc --noEmit",
+    "test": "node --experimental-strip-types src/smart-crop-service.test.ts",
+    "start": "node --experimental-strip-types src/smart-crop-service.ts"
+  },
+  "devDependencies": {
+    "typescript": "^5.6.3"
+  },
+  "dependencies": {
+    "zod": "^3.23.8"
+  }
+}
